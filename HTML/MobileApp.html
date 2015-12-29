@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS/MobileApp.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div id="mobile_screen">
+            <div id="app_header">
+                <div id="app_logo">
+                    <i class="material-icons">menu</i>
+                </div>
+                <span class="app_name">
+                NTES
+                </span>
+                <span class="app_close">
+                <i class="material-icons">close</i>
+                </span>
+            </div>
+            <nav id="drawer">
+                <ul>
+                    <li><a href="#">Spot your train</a></li>
+                    <li><a href="#">Live Station</a></li>
+                    <li><a href="#">Train Schedule</a></li>
+                    <li><a href="#">Trains Diverted</a></li>
+                    <li><a href="#">Rescheduled</a></li>
+                    <li><a href="#">Cancelled</a></li>
+                </ul>
+            </nav>
+            <div id="app_body">
+                <p>Official Indian Railways site for travelers using railways for taking holiday vacation trips, official trips, tours, and daily commute. Site provides train-running related and real-time status queries for all trains of India.</p>
+                <p> Centre for Railway Information Systems (CRIS) has launched a mobile app on Android platform for train enquiry.
+                The new National Train Enquiry System (NTES) mobile app for Android devices is free to download, and is listed on Google Play.</p>
+                <p>"With this launch, it has now become easier for the public to get information on expected arrival and departure timings of a particular train and other related information for the benefit of rail passengers," a senior Railway Ministry official said.</p>
+                <p>
+                CRIS, an IT wing of railways, earlier launched the NTES app for Windows Phone 8 platform in August 2014. One of the best features of the app is "spot your train" which provides information such as its current position and expected time of arrival and departure at a particular station.
+                </p>
+                <p>
+                Other features are 'train schedule', 'trains between stations', 'live station' and 'information on cancelled rescheduled & diverted trains'. 'Live Station' query provides list of trains expected to arrive at/depart from any station in next 2 or 4 hours.
+                </p>
+                <p>
+                The National Train Enquiry System (NTES) is a comprehensive system which provides information to public about train running on near real time basis through various interfaces like nationwide unique rail enquiry number 139, website, mobile interfaces, touch screens, counter enquiry and display boards at stations. CRIS has now made available its app for the two most commonly used platforms - Windows Phone 8 and Android.
+            </p>        </div>
+            <div id="app_footer">
+                <div class="app_Btn">
+                    <i class="material-icons">home</i>
+                </div>
+                <div class="app_Btn">
+                    <i class="material-icons">apps</i>
+                </div>
+                <div class="app_Btn">
+                    <i class="material-icons">arrow_back</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+                                        document.getElementById('app_logo').addEventListener('click',drawer, false);
+                                        function  drawer(){
+                                        document.getElementById('drawer').classList.toggle('drawer_left');
+                                        }
+    </script>
+</body>
+</html>
